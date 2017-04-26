@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ * Unit test for FizzBuzz application.
  */
-public class AppTest {
+public class FizzBuzzTest {
 
     @Test
     public void testSomething() {

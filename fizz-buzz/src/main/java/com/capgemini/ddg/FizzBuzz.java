@@ -1,6 +1,6 @@
 package com.capgemini.ddg;
 
-public class App {
+public class FizzBuzz {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
