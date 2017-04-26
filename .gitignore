@@ -1,0 +1,11 @@
+#General
+**/target
+
+#Intellij File
+**/*.iml
+**/.idea
+
+#Eclipse
+**/.settings
+**/.project
+**/.classpath
