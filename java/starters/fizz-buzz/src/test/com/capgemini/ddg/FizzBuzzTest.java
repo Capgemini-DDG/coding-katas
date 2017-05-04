@@ -1,6 +1,6 @@
 package com.capgemini.ddg;
 
-import org.junit.Assert;
+import junit.framework.Assert;
 import org.junit.Test;
 
 /**
@@ -9,7 +9,7 @@ import org.junit.Test;
 public class FizzBuzzTest {
 
     @Test
-    public void testSomething() {
-        Assert.fail("Implement Me!");
+    public void testFizz() {
+        Assert.fail("Implement me!");
     }
 }
