@@ -24,4 +24,8 @@ public class StringCalculatorTest {
         assertEquals(15, StringCalculator.sum("15"));
     }
 
+    @Test
+    public void testTwoNumbers() {
+        assertEquals(5, StringCalculator.sum("2,3"));
+    }
 }
