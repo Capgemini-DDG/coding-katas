@@ -9,9 +9,12 @@ public class StringCalculator {
         if( numbers.isEmpty() ) {
             return 0;
         } else {
-            return Arrays.stream(numbers.split("[,\n]")).
-                    map( i -> Integer.parseInt(i)).
-                    reduce(0, (i1, i2) -> i1 + i2);
+            return splitString(numbers).reduce(0, (i1, i2) -> i1 + i2);
         }
+    }
+
+    private static Stream<Integer> splitString(String numbers) {
+        return Arrays.stream(numbers.split("[,\n]")).
+                map( i -> Integer.parseInt(i));
     }
 }
