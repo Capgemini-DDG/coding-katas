@@ -9,9 +9,9 @@ public class StringCalculator {
         if( numbers.isEmpty() ) {
             return 0;
         } else {
-            Stream<String> sNums = Arrays.stream(numbers.split(","));
-            Stream<Integer> iNums = sNums.map( i -> Integer.parseInt(i));
-            return iNums.reduce(0, (i1, i2) -> i1 + i2);
+            return Arrays.stream(numbers.split(",")).
+                    map( i -> Integer.parseInt(i)).
+                    reduce(0, (i1, i2) -> i1 + i2);
         }
     }
 }
