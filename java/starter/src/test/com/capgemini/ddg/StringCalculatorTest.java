@@ -34,4 +34,10 @@ public class StringCalculatorTest {
     public void testMoreNumbers() {
         assertEquals(15, StringCalculator.sum("1,2,3,4,5"));
     }
+
+    @Test
+    public void testWithNewLineDelimiter() {
+        assertEquals(15, StringCalculator.sum("1\n2\n3\n4\n5"));
+    }
+
 }
