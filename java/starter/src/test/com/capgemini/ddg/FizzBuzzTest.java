@@ -6,10 +6,10 @@ import org.junit.Test;
 /**
  * Unit test for FizzBuzz application.
  */
-public class FizzBuzzTest {
+public class StarterTest {
 
     @Test
-    public void testFizz() {
+    public void testStarter() {
         Assert.fail("Implement me!");
     }
 }
