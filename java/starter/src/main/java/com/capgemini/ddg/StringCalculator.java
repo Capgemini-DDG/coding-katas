@@ -3,6 +3,10 @@ package com.capgemini.ddg;
 public class StringCalculator {
 
     static int sum(String numbers) {
-        return 0;
+        if( numbers.isEmpty() ) {
+            return 0;
+        } else {
+            return Integer.parseInt(numbers);
+        }
     }
 }
