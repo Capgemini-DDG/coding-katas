@@ -15,4 +15,10 @@ public class StringCalculatorTest {
     public void testEmpty() {
         assertEquals(0, StringCalculator.sum(""));
     }
+
+    @Test
+    public void testSingleNumber() {
+        assertEquals(2, StringCalculator.sum("2"));
+    }
+
 }
