@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Junit" project="Roman_Numeral_calc" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="com.df.Testing.Junit" time="0.001">
+    <testcase name="test2_5" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test3_4" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test3_8" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test4_2" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test4_5" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test4_8" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test1" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test2" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test3" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test4" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test5" classname="com.df.Testing.Junit" time="0.0"/>
+    <testcase name="test6" classname="com.df.Testing.Junit" time="0.001"/>
+  </testsuite>
+</testrun>

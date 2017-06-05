@@ -1,0 +1,13 @@
+2017-06-01 13:22:03,411 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\pom.xml
+2017-06-01 13:22:05,545 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.df:Roman_Numerals_calc:0.0.1-SNAPSHOT @ C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\pom.xml.
+2017-06-01 13:22:06,576 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Roman_Numerals_calc/src/main/java
+2017-06-01 13:22:06,585 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Roman_Numerals_calc/src/test/java
+2017-06-01 13:22:07,864 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2017-06-01 13:22:08,578 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 13:22:08,579 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\main\resources
+2017-06-01 13:22:08,581 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 13:22:08,582 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\test\resources
+2017-06-01 13:22:51,270 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 13:22:51,270 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\main\resources
+2017-06-01 13:22:51,272 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 13:22:51,272 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\test\resources

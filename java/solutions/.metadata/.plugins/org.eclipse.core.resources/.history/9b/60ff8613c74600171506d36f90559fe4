@@ -1,0 +1,14 @@
+package com.df.Testing;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Junit {
+
+	@Test
+	public void test1() {
+		Assert.assertEquals("II", Calc("I", "I"));
+	}
+
+}
