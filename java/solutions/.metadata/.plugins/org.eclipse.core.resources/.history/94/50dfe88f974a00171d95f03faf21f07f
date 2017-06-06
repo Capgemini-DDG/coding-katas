@@ -155,7 +155,7 @@ public class Roman_Numerals_Calc
 								nxtBreak = true;
 								skipper = i;
 							}
-							else if (in2.substring(i, i+2).equals("CM"))
+							else if (in2.substring(i, i+2).equals("CL"))
 							{
 								total2 += 900;
 								nxtBreak = true;

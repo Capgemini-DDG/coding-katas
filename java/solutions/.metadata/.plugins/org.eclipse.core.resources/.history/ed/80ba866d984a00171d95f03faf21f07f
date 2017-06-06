@@ -138,12 +138,12 @@ public class Junit extends Roman_Numerals_Calc
 	@Test
 	public void test16()
 	{
-		assertEquals("DCCX", Calc("DXXVII","CLXXXIII"));
+		assertEquals("DCXXI", Calc("CCCLXVII","CCLIV"));
 	}
 	
 	@Test
 	public void test17()
 	{
-		assertEquals("DCIII", Calc("CCLXV","CCCXXXVIII"));
+		assertEquals("CDXXXI", Calc("CCLXXVIII","CLIII"));
 	}
 }
