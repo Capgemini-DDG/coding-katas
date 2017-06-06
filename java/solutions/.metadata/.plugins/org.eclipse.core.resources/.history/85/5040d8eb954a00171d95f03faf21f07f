@@ -60,29 +60,7 @@ public class Roman_Numerals_Calc
 						total1 += 50;
 						break;
 					case "C":
-						if (in1.length() >= i+2)
-							if (in1.substring(i, i+2).equals("CD"))
-							{
-								total1 += 400;
-								nxtBreak = true;
-								skipper = i;
-							}
-							else if (in1.substring(i, i+2).equals("CL"))
-							{
-								total1 += 900;
-								nxtBreak = true;
-								skipper = i;
-							}
-							else
-								total1 += 100;
-						else
-							total1 += 100;
-						break;
-					case "D":
-						total1 += 500;
-						break;
-					case "M":
-						total1 += 1000;
+						total1 += 100;
 						break;
 					default:
 						System.err.println("Error: Not a Roman Numeral");
@@ -127,7 +105,7 @@ public class Roman_Numerals_Calc
 						break;
 					case "X":
 						if (in2.length() >= i+2)
-							if (in2.substring(i, i+2).equals("XL"))
+							if (in1.substring(i, i+2).equals("XL"))
 							{
 								total2 += 40;
 								nxtBreak = true;
@@ -148,29 +126,7 @@ public class Roman_Numerals_Calc
 						total2 += 50;
 						break;
 					case "C":
-						if (in2.length() >= i+2)
-							if (in2.substring(i, i+2).equals("CD"))
-							{
-								total2 += 400;
-								nxtBreak = true;
-								skipper = i;
-							}
-							else if (in2.substring(i, i+2).equals("CL"))
-							{
-								total2 += 900;
-								nxtBreak = true;
-								skipper = i;
-							}
-							else
-								total2 += 100;
-						else
-							total2 += 100;
-						break;
-					case "D":
-						total2 += 500;
-						break;
-					case "M":
-						total2 += 1000;
+						total2 += 100;
 						break;
 					default:
 						System.err.println("Error: Not a Roman Numeral");
@@ -189,17 +145,12 @@ public class Roman_Numerals_Calc
 		
 		while (overall > 0)
 		{
-			if (overall >= 1000)
-			{
-				output = output+"M";
-				overall = overall - 1000;
-			}
-			else if (overall >= 900)
+			if (overall >= 900)
 			{
 				output = output+"CM";
 				overall = overall - 900;
 			}
-			else if (overall >= 500)
+			if (overall >= 500)
 			{
 				output = output+"D";
 				overall = overall - 500;

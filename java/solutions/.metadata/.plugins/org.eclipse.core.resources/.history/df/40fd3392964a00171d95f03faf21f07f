@@ -104,10 +104,4 @@ public class Junit extends Roman_Numerals_Calc
 	{
 		assertEquals("M", Calc("CD", "DC"));
 	}
-	
-	@Test
-	public void test11()
-	{
-		assertEquals("CMXXXIX", Calc("DCXXV","CCCXIV"));
-	}
 }
