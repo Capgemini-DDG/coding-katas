@@ -1,0 +1,26 @@
+package com.df.Tests;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.df.Program.Greed;
+
+public class AppTests {
+
+	private Greed greed;
+	
+	@Before
+	private void setUp()
+	{
+		greed = new Greed();
+	}
+	
+	@Test
+	private void test1die1() {
+		Integer[] dice = new Integer[6];
+		assertEquals(100, score());
+	}
+
+}

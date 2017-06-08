@@ -1,0 +1,15 @@
+package com.df.Program;
+
+public class Greed 
+{
+	public int score(Integer[] input)
+	{
+		for (int temp : input)
+		{
+			if (temp == 1)
+				return 100;
+			else
+				return 0;
+		}
+	}
+}

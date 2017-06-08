@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTests" project="Greed Kata" tests="7" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.df.Tests.AppTests" incomplete="true">
+    <testcase name="test1die1" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test1die2" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test1die3" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test1die4" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test1die5" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test1die6" classname="com.df.Tests.AppTests" incomplete="true"/>
+    <testcase name="test2die1" classname="com.df.Tests.AppTests" incomplete="true"/>
+  </testsuite>
+</testrun>

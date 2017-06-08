@@ -1,0 +1,70 @@
+package com.df.Tests;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.df.Program.Greed;
+
+public class AppTests
+{
+	private Greed greed;
+	Integer[] dice = new Integer[6];
+	
+	@Before
+	public void setUp()
+	{
+		greed = new Greed();
+	}
+	
+	@Test
+	public void test1die1() 
+	{
+		dice[0] = 1;
+		assertEquals(100, greed.score(dice));
+	}
+	
+	@Test
+	public void test1die2()
+	{
+		dice[0] = 2;
+		assertEquals(0, greed.score(dice));
+	}
+	
+	@Test
+	public void test1die3()
+	{
+		dice[0] = 3;
+		assertEquals(0, greed.score(dice));
+	}
+	
+	@Test
+	public void test1die4()
+	{
+		dice[0] = 4;
+		assertEquals(0, greed.score(dice));
+	}
+	
+	@Test
+	public void test1die5()
+	{
+		dice[0] = 5;
+		assertEquals(50, greed.score(dice));
+	}
+	
+	@Test
+	public void test1die6()
+	{
+		dice[0] = 6;
+		assertEquals(0, greed.score(dice));
+	}
+	
+	@Test
+	public void test2die1()
+	{
+		dice[0] = 1;
+		dice [1] = 1;
+		assertEquals(0, greed.score(dice));
+	}
+}
