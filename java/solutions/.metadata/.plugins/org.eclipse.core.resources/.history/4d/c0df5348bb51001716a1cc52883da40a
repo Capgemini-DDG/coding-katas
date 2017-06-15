@@ -1,0 +1,19 @@
+package com.df.Testing;
+
+import org.junit.Test;
+import com.df.App.FizzBuzz;
+
+public class Test1 
+{
+	@Before
+	public void setUp()
+	{
+		
+	}
+	
+	@Test
+	public void test() 
+	{
+		
+	}
+}

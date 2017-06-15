@@ -1,0 +1,30 @@
+package com.df.Testing;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.df.App.FizzBuzz;
+
+public class Test1 
+{
+	FizzBuzz fb = null;
+	
+	@Before
+	public void setUp()
+	{
+		fb = new FizzBuzz();
+	}
+	
+	@After
+	public void tearDown()
+	{
+		fb = null;
+	}
+	
+	@Test
+	public void test() 
+	{
+		assertEquals(1, inFizz(1));
+	}
+}

@@ -1,0 +1,14 @@
+package com.df.App;
+
+public class FizzBuzz 
+{
+	public void allFizz()
+	{
+		
+	}
+	
+	public int inFizz()
+	{
+		
+	}
+}

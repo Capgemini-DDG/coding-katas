@@ -1,9 +1,0 @@
-package com.df.Program;
-
-public class Greed 
-{
-	public int score(Integer input)
-	{
-		return 100;
-	}
-}

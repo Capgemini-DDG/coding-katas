@@ -1,0 +1,266 @@
+package com.df.Testing;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.df.App.FizzBuzz;
+
+public class Test1 
+{
+	FizzBuzz fb = null;
+	
+	@Before
+	public void setUp()
+	{
+		fb = new FizzBuzz();
+	}
+	
+	@After
+	public void tearDown()
+	{
+		fb = null;
+	}
+	
+	@Test
+	public void test1() 
+	{
+		assertEquals("1", fb.inFizz(1));
+	}
+	
+	@Test
+	public void test2() 
+	{
+		assertEquals("2", fb.inFizz(2));
+	}
+	
+	@Test
+	public void test3() 
+	{
+		assertEquals("Fizz", fb.inFizz(3));
+	}
+	
+	@Test
+	public void test4() 
+	{
+		assertEquals("4", fb.inFizz(4));
+	}
+	
+	@Test
+	public void test5() 
+	{
+		assertEquals("Buzz", fb.inFizz(5));
+	}
+	
+	@Test
+	public void test6() 
+	{
+		assertEquals("Fizz", fb.inFizz(6));
+	}
+	
+	@Test
+	public void test7() 
+	{
+		assertEquals("7", fb.inFizz(7));
+	}
+	
+	@Test
+	public void test8() 
+	{
+		assertEquals("8", fb.inFizz(8));
+	}
+	
+	@Test
+	public void test9() 
+	{
+		assertEquals("Fizz", fb.inFizz(9));
+	}
+	
+	@Test
+	public void test10() 
+	{
+		assertEquals("Buzz", fb.inFizz(10));
+	}
+	
+	@Test
+	public void test11() 
+	{
+		assertEquals("11", fb.inFizz(11));
+	}
+	
+	@Test
+	public void test12() 
+	{
+		assertEquals("Fizz", fb.inFizz(12));
+	}
+	
+	@Test
+	public void test13() 
+	{
+		assertEquals("Fizz", fb.inFizz(13));
+	}
+	
+	@Test
+	public void test14() 
+	{
+		assertEquals("14", fb.inFizz(14));
+	}
+	
+	@Test
+	public void test15() 
+	{
+		assertEquals("FizzBuzz", fb.inFizz(15));
+	}
+	
+	@Test
+	public void test16() 
+	{
+		assertEquals("16", fb.inFizz(16));
+	}
+	
+	@Test
+	public void test17() 
+	{
+		assertEquals("17", fb.inFizz(17));
+	}
+	
+	@Test
+	public void test18() 
+	{
+		assertEquals("Fizz", fb.inFizz(18));
+	}
+	
+	@Test
+	public void test19() 
+	{
+		assertEquals("19", fb.inFizz(19));
+	}
+	
+	@Test
+	public void test20() 
+	{
+		assertEquals("Buzz", fb.inFizz(20));
+	}
+	
+	@Test
+	public void test21() 
+	{
+		assertEquals("Fizz", fb.inFizz(21));
+	}
+	
+	@Test
+	public void test22() 
+	{
+		assertEquals("22", fb.inFizz(22));
+	}
+	
+	@Test
+	public void test23() 
+	{
+		assertEquals("Fizz", fb.inFizz(23));
+	}
+	
+	@Test
+	public void test24() 
+	{
+		assertEquals("Fizz", fb.inFizz(24));
+	}
+	
+	@Test
+	public void test25() 
+	{
+		assertEquals("Buzz", fb.inFizz(25));
+	}
+	
+	@Test
+	public void test26() 
+	{
+		assertEquals("26", fb.inFizz(26));
+	}
+	
+	@Test
+	public void test27() 
+	{
+		assertEquals("Fizz", fb.inFizz(27));
+	}
+	
+	@Test
+	public void test28() 
+	{
+		assertEquals("28", fb.inFizz(28));
+	}
+	
+	@Test
+	public void test29() 
+	{
+		assertEquals("29", fb.inFizz(29));
+	}
+	
+	@Test
+	public void test30() 
+	{
+		assertEquals("FizzBuzz", fb.inFizz(30));
+	}
+	
+	@Test
+	public void test31() 
+	{
+		assertEquals("Fizz", fb.inFizz(31));
+	}
+	
+	@Test
+	public void test32() 
+	{
+		assertEquals("Fizz", fb.inFizz(32));
+	}
+	
+	@Test
+	public void test33() 
+	{
+		assertEquals("Fizz", fb.inFizz(33));
+	}
+	
+	@Test
+	public void test34() 
+	{
+		assertEquals("Fizz", fb.inFizz(34));
+	}
+	
+	@Test
+	public void test35() 
+	{
+		assertEquals("FizzBuzz", fb.inFizz(35));
+	}
+	
+	@Test
+	public void test36() 
+	{
+		assertEquals("Fizz", fb.inFizz(36));
+	}
+	
+	@Test
+	public void test37() 
+	{
+		assertEquals("Fizz", fb.inFizz(37));
+	}
+	
+	@Test
+	public void test38() 
+	{
+		assertEquals("Fizz", fb.inFizz(38));
+	}
+	
+	@Test
+	public void test39() 
+	{
+		assertEquals("FizzBuzz", fb.inFizz(39));
+	}
+	
+	@Test
+	public void test40() 
+	{
+		assertEquals("Buzz", fb.inFizz(40));
+	}
+}

@@ -1,0 +1,19 @@
+package com.df.Testing;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class Test1 
+{
+	@Before
+	public void setUp()
+	{
+		
+	}
+	
+	@Test
+	public void test() 
+	{
+		
+	}
+}
