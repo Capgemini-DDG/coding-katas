@@ -46,5 +46,47 @@ public class FizzBuzzTest {
 		FizzBuzzMain main = new FizzBuzzMain();
 		Assert.assertEquals("FizzBuzz", main.result(35));
 	}
+	
+	@Test
+	public void ArraytestNull() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("Null", main.experiment(8));
+	}
+
+	@Test
+	public void Arraytest1() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("Fizz", main.experiment(3));
+	}
+
+	@Test
+	public void Arraytest2() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("Buzz", main.experiment(5));
+	}
+
+	@Test
+	public void Arraytest3() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("FizzBuzz", main.experiment(15));
+	}
+
+	@Test
+	public void Arraytest4() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("FizzBuzz", main.experiment(45));
+	}
+
+	@Test
+	public void Arraytest5() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("Fizz", main.experiment(21));
+	}
+
+	@Test
+	public void Arraytest6() {
+		FizzBuzzMain main = new FizzBuzzMain();
+		Assert.assertEquals("FizzBuzz", main.experiment(35));
+	}
 
 }

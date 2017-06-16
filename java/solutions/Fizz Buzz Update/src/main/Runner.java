@@ -4,7 +4,7 @@ public class Runner {
 
 	public static void main(String args[]) {
 		FizzBuzzMain Fi = new FizzBuzzMain();
-		Fi.Loop();
+		Fi.experiment(1);
 	}
 
 }
