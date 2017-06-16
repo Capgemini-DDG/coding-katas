@@ -2,9 +2,10 @@ package com.df.App;
 
 public class FizzBuzz 
 {
-	public FizzBuzz()
+	public void FizzBuzz()
 	{
-		runner();
+		for (int i = 0; i > 101; i++)
+			System.out.println(inFizz(i));
 	}
 	
 	public String inFizz(int i)
@@ -19,15 +20,6 @@ public class FizzBuzz
 			return "Fizz";
 		else
 			return Integer.toString(i);
-	}
-	
-	private void runner()
-	{
-		for (int i = 0; i <= 100; i++)
-		{
-			String t = inFizz(i);
-			System.out.println(t);
-		}
 	}
 	
 	public static void main (String[] args)

@@ -23,7 +23,7 @@ public class FizzBuzz
 	
 	private void runner()
 	{
-		for (int i = 0; i <= 100; i++)
+		for (int i = 0; i > 101; i++)
 		{
 			String t = inFizz(i);
 			System.out.println(t);
