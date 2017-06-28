@@ -16,11 +16,93 @@ package com.capgemini.ddg.numbersinwords;
  */
 public class NumbersInWords {
 
-    public static String convertNumbersToWords(int number) {
+    /**
+     * Converts numbers into their equivalent words.
+     * @param numberToConvert
+     * @return
+     */
+    public static String convertNumbersToWords(int numberToConvert) {
 
         StringBuilder sb = new StringBuilder();
-        sb = sb.append(NumberWord.valueOf(number).getWord());
 
-        return sb.toString();
+        String numberAsString = String.valueOf(numberToConvert);
+        Integer numberOfDigits = numberAsString.length();
+        Integer remainingDigits = numberOfDigits;
+
+        for (int i = 0; i < numberOfDigits; i++) {
+            String currentDigit = numberAsString.substring(i, i +1);
+
+            switch (remainingDigits) {
+                case 1:
+                    // don't add zero to numbers that aren't zero (e.g. don't return "ten zero" for the number 10)
+                    if (numberOfDigits == 1 || (numberOfDigits > 1 && !currentDigit.equals("0"))) {
+                        sb = sb.append(NumberWord.valueOf(Integer.valueOf(currentDigit)).getWord());
+                    }
+                    break;
+                case 2:
+                    //special cases for teens.
+                    if (currentDigit.startsWith("1")) {
+                        String currentValue = numberAsString.substring(i);
+                        sb = sb.append(NumberWord.valueOf(Integer.valueOf(currentValue)).getWord());
+                        return sb.toString();
+                    } else if (currentDigit.startsWith("0")) {
+                        //do nothing
+                    }
+                    else {
+                        String currentValue = currentDigit + "0";
+                        sb = sb.append(NumberWord.valueOf(Integer.valueOf(currentValue)).getWord());
+                    }
+                    break;
+                case 3:
+                    if (currentDigit.startsWith("0")) {
+                        //do nothing
+                    }
+                    else {
+                        sb = sb.append(NumberWord.valueOf(Integer.valueOf(currentDigit)).getWord());
+                        sb = sb.append(" " + NumberWord.HUNDRED.getWord());
+                        String nextValue = numberAsString.substring(i+1);
+                        if (!nextValue.equals("00")) {
+                            sb = sb.append(" and");
+                        }
+                    }
+                    break;
+                case 4:
+                    if (currentDigit.startsWith("0")) {
+                        //do nothing
+                    }
+                    else {
+                        sb = sb.append(NumberWord.valueOf(Integer.valueOf(currentDigit)).getWord());
+                        sb = sb.append(" " + NumberWord.THOUSAND.getWord());
+                        String nextValue = numberAsString.substring(i+1);
+                        if (!nextValue.equals("000") && nextValue.startsWith("0")) {
+                            sb = sb.append(" and");
+                        }
+                    }
+                    break;
+                default:
+
+                    break;
+
+            }
+            //add a space if it is not a zero.
+            if (!currentDigit.startsWith("0")) {
+                sb.append(" ");
+            }
+            remainingDigits--;
+        }
+
+        return sb.toString().trim();
+    }
+
+    /**
+     * Changes words into equivalent numbers.
+     * @param words
+     * @return
+     */
+    public static int convertWordsToNumbers(String words) {
+
+        int number = NumberWord.valueOf(words.toUpperCase()).getNumber();
+
+        return number;
     }
 }
