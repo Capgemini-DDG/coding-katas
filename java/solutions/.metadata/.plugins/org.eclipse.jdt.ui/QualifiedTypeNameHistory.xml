@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="com.df.Program.Roman_Numerals_Calc"/>
 <fullyQualifiedTypeName name="com.df.Program.Greed"/>
 <fullyQualifiedTypeName name="com.df.App.FizzBuzz"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
 </qualifiedTypeNameHistroy>
