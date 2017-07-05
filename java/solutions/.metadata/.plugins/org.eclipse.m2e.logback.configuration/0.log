@@ -11,3 +11,34 @@
 2017-06-01 13:22:51,270 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\main\resources
 2017-06-01 13:22:51,272 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-06-01 13:22:51,272 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\Roman_Numerals_calc\src\test\resources
+2017-07-05 15:38:05,122 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.ddg:code-kata:1.0-SNAPSHOT @ C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\pom.xml.
+2017-07-05 15:38:05,209 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.ddg:fibonacci-generator:1.0-SNAPSHOT @ C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\pom.xml.
+2017-07-05 15:38:06,607 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizz-buzz/src/main/java
+2017-07-05 15:38:06,608 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizz-buzz/src/test/java
+2017-07-05 15:38:06,832 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fibonacci-generator/src/main/java
+2017-07-05 15:38:06,842 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fibonacci-generator/src/test/java
+2017-07-05 15:38:06,917 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 5 sec
+2017-07-05 15:38:07,381 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:38:07,382 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\main\resources
+2017-07-05 15:38:07,384 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:38:07,385 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\test\resources
+2017-07-05 15:38:07,525 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:38:07,525 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\main\resources
+2017-07-05 15:38:07,526 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:38:07,527 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\test\resources
+2017-07-05 15:49:38,362 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:49:38,368 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\main\resources
+2017-07-05 15:49:38,370 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:49:38,371 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\test\resources
+2017-07-05 15:49:39,101 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:49:39,102 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\main\resources
+2017-07-05 15:49:39,104 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:49:39,104 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\test\resources
+2017-07-05 15:56:54,921 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:56:54,925 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\main\resources
+2017-07-05 15:56:54,927 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:56:54,927 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\starters\fibonacci-generator\src\test\resources
+2017-07-05 15:56:55,498 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:56:55,499 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\main\resources
+2017-07-05 15:56:55,501 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-05 15:56:55,501 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DFORSTER\Documents\GitHub\coding-katas\java\solutions\fizz-buzz\src\test\resources
