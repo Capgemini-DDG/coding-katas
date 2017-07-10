@@ -21,8 +21,12 @@ public class Solution {
 						result += " one";
 						pass = true;
 					} else if (value.length() >= 3 && i < value.length() - 2) {
-						result += " one";
-						pass = true;
+						if (i == value.length() - 5) {
+
+						} else {
+							result += " one";
+							pass = true;
+						}
 					}
 
 					else if (i == value.length() - 1 && value.charAt(i - 1) == '1') {
@@ -31,6 +35,11 @@ public class Solution {
 						if (i < value.length()) {
 							pass = false;
 						}
+					}
+					
+					else if (i > value.length() - 2){
+						result += " one";
+						pass = true;
 					}
 				}
 
@@ -87,6 +96,19 @@ public class Solution {
 						result += "three";
 					}
 
+					else if (value.length() == 2) {
+						if (i == 0 && value.charAt(i + 1) == '0') {
+							result += " thir";
+							pass = true;
+						} else if (value.charAt(i - 1) != '1') {
+							result += " three";
+							pass = true;
+						} else {
+							result += " thir";
+							pass = true;
+						}
+					}
+
 					else if (i >= (value.length() - 2) && value.charAt(i - 1) == '1'
 							|| i >= (value.length() - 2) && value.charAt(i - 1) != '0' && (i + 1) < value.length()
 							|| i == (value.length() - 5) && value.charAt(i - 1) != '0' && (i + 1) < value.length()) {
@@ -100,8 +122,13 @@ public class Solution {
 
 					} else {
 						if (value.length() >= 2 && i > 0) {
-							result += " three";
-							pass = true;
+							if (i == value.length() - 2) {
+								result += " thir";
+								pass = true;
+							} else {
+								result += " three";
+								pass = true;
+							}
 						} else {
 							result += "three";
 							pass = true;
@@ -218,7 +245,7 @@ public class Solution {
 						// doing nothing
 					} else if (value.charAt(i) == '1') {
 						if (value.charAt(i + 1) == '0') {
-							result += "ten";
+							result += " ten";
 
 						} else {
 							if (pass == true && value.charAt(i - 1) == '1' && i < value.length() - 2) {

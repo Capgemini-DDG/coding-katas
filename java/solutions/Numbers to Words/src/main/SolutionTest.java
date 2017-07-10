@@ -306,4 +306,47 @@ public class SolutionTest {
 		assertEquals("one hundred and fifty four", solution.Main(154));
 	}
 	
+	@Test
+	public void Test51() {
+		Solution solution = new Solution();
+		assertEquals("one thousand and three", solution.Main(1003));
+	}
+	
+	@Test
+	public void Test52() {
+		Solution solution = new Solution();
+		assertEquals("thirty", solution.Main(30));
+	}
+	
+	@Test
+	public void Test53() {
+		Solution solution = new Solution();
+		assertEquals("one hundred", solution.Main(100));
+	}
+	
+	@Test
+	public void Test54() {
+		Solution solution = new Solution();
+		assertEquals("eight hundred thousand and thirty one", solution.Main(800031));
+	}
+	
+
+	@Test
+	public void Test55() {
+		Solution solution = new Solution();
+		assertEquals("five hundred thousand seven hundred", solution.Main(500700));
+	}
+	
+	@Test
+	public void Test56() {
+		Solution solution = new Solution();
+		assertEquals("three hundred and ten thousand", solution.Main(310000));
+	}
+	
+	@Test
+	public void Test57() {
+		Solution solution = new Solution();
+		assertEquals("eight hundred and twenty two thousand seven hundred and fifty six", solution.Main(822756));
+	}
+	
 }
