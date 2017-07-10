@@ -75,7 +75,7 @@ public class Solution {
 							pass = true;
 						}
 					} else {
-						if (i == 0 || (i + 1) == value.length() || i == value.length() - 4) {
+						if (i == 0 || (i + 1) == value.length() || i == value.length() - 4 || i == value.length() - 3) {
 							if (value.length() >= 2) {
 								result += " two";
 							} else {
